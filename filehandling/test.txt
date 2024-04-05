@@ -1,0 +1,93 @@
+a1->tableau
+a2->To clean and transform raw data into a usable format
+a3->c) Set d) Dictionary
+a4->a) Extract, Transform, Load
+a5->b) Datasets that cannot be analyzed using traditional methods
+a6->c) MongoDB
+a7->c) To predict numerical values based on other data
+a8->c) It is an acronym for "Numerical Analysis Notation"
+a9->e) Linear Discriminant Analysis (LDA)
+a10->Application Program Interface
+a11->def palindrome(n):
+    b=str(n)
+    a=b[::-1]
+    if a==b:
+        print("number is palindrome")
+    else:
+        print("number is not palindrome")
+
+a=int(input("enter number to check its palindrome or not"))
+palindrome(a)
+
+a12->
+    a=[1,5,7,8,9,2]
+    sum=0
+    for i in a:
+        if i%2==0:
+            sum=sum+i
+    print(sum)
+
+a13->list stores different types of values andit is mutable
+a14->
+    class Employee:
+        name=""
+        age=0
+        salary=0
+        def __init__(self,name,age,salary):
+            self.name=name
+            self.age=age
+            self.salary=salary
+        def printname(self):
+            print(self.name)
+        def printage(self):
+                print(self.age)
+        def printsalary(self):
+            print(self.salary)
+    class Test:
+        arun=Employee("Arun",20,180000)
+        arun.printname()
+a15->
+    a=int(input("enter number to find its factorial"))
+    sum=1
+    for i in range(1,a+1):
+    sum=sum*i
+    print(sum)
+a16->a = [2, 2, 4, 6, 7, 7, 8, 9, 1, 1]
+    unique_list = []
+    for i in a:
+        if i not in unique_list:
+            unique_list.append(i)
+
+    print(unique_list)
+a17->append adds elements at the last of the list and only one element can append
+    extend means we can add more than one element to list.
+a18->a=["apple","bannana","orange","bannana","apple","bannana"]
+    unique_list = []
+    for i in a:
+        if i not in unique_list:
+            unique_list.append(i)
+    for j in unique_list:
+        print(j,a.count(j))
+a19->a=[1,2,5,8,7,11,25]
+    a.sort()
+    print(a[-2])
+a20->a=0
+    n= int(input("enter"))
+    print(a)
+    b=1
+    k=0
+    for i in range(0,n):
+        k=a+b
+        a=b
+        b=k
+        print(b)
+a21->my_dict = {'a': 10, 'b': 20, 'c': 30, 'd': 20}
+    max_value = max(my_dict.values())
+    max_key=[]
+    for key, value in my_dict.items():
+        if value == max_value:
+            max_key.append(key)
+    print(max_value, max_key) 
+a22->poly means many and morph means behaviour 
+    so polymorphism means a class have different properties and different behaviours
+
